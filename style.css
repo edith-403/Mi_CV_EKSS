@@ -1,0 +1,31 @@
+:root {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html, body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    width: 22vw;
+    height: 100vh;
+}
+
+.image-profile {
+    display: flex;
+    width: 20vw;
+    height: auto;
+    border-radius: 999px;
+    position: absolute;
+    left: 65%;
+    top: 2%;
+}
+
+p {
+    width: 70vw;
+    height: auto;
+    text-align: justify;
+}
