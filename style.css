@@ -6,6 +6,7 @@ html, body {
     display: flex;
     width: 100vw;
     height: 100vh;
+    background-color: darkslategray;
 }
 
 nav {
@@ -14,18 +15,51 @@ nav {
     height: 100vh;
 }
 
+nav ul{
+    list-style: none;
+}
+ul {
+    color: beige;
+
+}
+
+nav ul a {
+    text-decoration: none;
+    color: burlywood;
+}
+
 .image-profile {
     display: flex;
-    width: 20vw;
-    height: auto;
+    width: 180px;
+    height: 180px;
     border-radius: 999px;
-    position: absolute;
-    left: 65%;
-    top: 2%;
+    margin: 4%;
+}
+
+.Contacto_info {
+    display: flex;
+}
+
+.Contacto_info ul{
+    list-style: none;
+    margin-left: 0;
 }
 
 p {
-    width: 70vw;
+    width: 50vw;
     height: auto;
     text-align: justify;
+    color: beige;
 }
+
+h1 {
+    font-size: xx-large;
+    font-weight: 900;
+    color: darkgoldenrod;
+
+}
+
+h2 {
+    color: darkgoldenrod;
+}
+
